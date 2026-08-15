@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cukka — Personal Cookbook & Kitchen Companion</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<style>
+  :root {
+    --bg: #faf8f3;
+    --bg2: #ffffff;
+    --accent: #d4694a;
+    --accent2: #b35535;
+    --accent-light: rgba(212, 105, 74, 0.1);
+    --text: #1a1917;
+    --text2: #4a4540;
+    --text3: #8a827a;
+    --border: #e5ddd6;
+    --radius: 16px;
+    --font: ui-rounded, 'SF Pro Rounded', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1917;
+      --bg2: #242220;
+      --accent: #e07a5f;
+      --accent2: #c46040;
+      --accent-light: rgba(224, 122, 95, 0.15);
+      --text: #f0ede8;
+      --text2: #c5beb6;
+      --text3: #8a827a;
+      --border: #3a3632;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0;
+    background: var(--bg); color: var(--text);
+    font-family: var(--font);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 800px; margin: 0 auto; padding: 48px 24px 80px; }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+  }
+  .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+  .brand svg { width: 36px; height: 36px; }
+  .brand span { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; color: var(--accent); }
+  nav a { color: var(--text2); text-decoration: none; font-size: 15px; font-weight: 500; }
+  nav a:hover { color: var(--accent); }
+
+  .hero {
+    text-align: center;
+    padding: 32px 16px 48px;
+  }
+  .hero h1 {
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.25;
+    margin: 0 0 16px;
+    letter-spacing: -0.8px;
+  }
+  .hero p {
+    font-size: 18px;
+    color: var(--text2);
+    max-width: 580px;
+    margin: 0 auto 32px;
+  }
+  .btn-group {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 28px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+  }
+  .btn:hover { transform: translateY(-2px); opacity: 0.95; }
+  .btn-primary { background: var(--accent); color: #ffffff; }
+  .btn-secondary { background: var(--bg2); color: var(--text); border: 1px solid var(--border); }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    margin-top: 48px;
+  }
+  .card {
+    background: var(--bg2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+  }
+  .card-icon {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+  .card h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--accent2);
+  }
+  .card p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--text2);
+  }
+
+  footer {
+    margin-top: 64px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--text3);
+    border-top: 1px solid var(--border);
+    padding-top: 32px;
+  }
+  footer a { color: var(--accent); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a href="index.html" class="brand">
+        <svg viewBox="0 0 24 24" fill="#D4694A">
+          <path d="M19 11h-4.18C14.4 9.84 13.3 9 12 9s-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v2c0 2.21 1.79 4 4 4h10c2.21 0 4-1.79 4-4v-2c0-1.1-.9-2-2-2zm-7-1c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm6 5c0 1.1-.9 2-2 2H7c-1.1 0-2-.9-2-2v-1h14v1z"/>
+        </svg>
+        <span>Cukka</span>
+      </a>
+      <nav>
+        <a href="privacy.html">Privacy Policy</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Your Personal 100% Offline Cookbook & Companion</h1>
+        <p>Store recipes, plan weekly meals, convert kitchen units, and build smart shopping lists. No account, no cloud, no internet required.</p>
+        
+        <div class="btn-group">
+          <a href="https://github.com/zbcdevo/cukka-app/releases/latest" class="btn btn-primary">
+            <span>Download for Android</span>
+          </a>
+          <a href="https://github.com/zbcdevo/cukka-app" class="btn btn-secondary">
+            <span>View Source code</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="card">
+          <div class="card-icon">🔒</div>
+          <h3>100% Offline & Private</h3>
+          <p>All data stays strictly on your device. Zero telemetry, zero cloud tracking, zero accounts.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🗓️</div>
+          <h3>Weekly Meal Planner</h3>
+          <p>Organize breakfast, lunch, snack, and dinner playlists with one-tap shopping list generation.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">⚖️</div>
+          <h3>Kitchen Converter</h3>
+          <p>Convert volumes, weights, and densities seamlessly — including protein powder scoops.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">⏱️</div>
+          <h3>Cooking Mode & Timer</h3>
+          <p>Discreet inline scroll-wheel timer and screen wakelock so your device stays awake while cooking.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🛒</div>
+          <h3>Smart Shopping List</h3>
+          <p>Auto-aggregates duplicate ingredients and scales recipe portions effortlessly.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🌐</div>
+          <h3>Full Internationalization</h3>
+          <p>Complete 100% native language support for English and Portuguese (Brasil).</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Cukka is part of Zabba Labs.<br />
+      <a href="privacy.html">Privacy Policy</a> · <a href="https://github.com/zbcdevo/cukka-app">github.com/zbcdevo/cukka-app</a></p>
+    </footer>
+  </div>
+</body>
+</html>

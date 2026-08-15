@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy — Cukka</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<style>
+  :root {
+    --bg: #faf8f3;
+    --bg2: #ffffff;
+    --accent: #d4694a;
+    --accent2: #b35535;
+    --text: #1a1917;
+    --text2: #4a4540;
+    --text3: #8a827a;
+    --border: #e5ddd6;
+    --radius: 12px;
+    --font: ui-rounded, 'SF Pro Rounded', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1917;
+      --bg2: #242220;
+      --accent: #e07a5f;
+      --accent2: #c46040;
+      --text: #f0ede8;
+      --text2: #c5beb6;
+      --text3: #8a827a;
+      --border: #3a3632;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0;
+    background: var(--bg); color: var(--text);
+    font-family: var(--font);
+    line-height: 1.7;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 48px 24px 80px; }
+  .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 32px; text-decoration: none; }
+  .brand svg { width: 32px; height: 32px; }
+  .brand span { font-size: 24px; font-weight: 800; letter-spacing: -0.5px; color: var(--accent); }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  .updated { color: var(--text3); font-size: 13px; margin-bottom: 32px; }
+  h2 { font-size: 17px; margin: 32px 0 8px; color: var(--accent2); }
+  p, li { color: var(--text2); font-size: 15px; }
+  ul { padding-left: 20px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px 32px; }
+  .footer { margin-top: 32px; text-align: center; font-size: 13px; color: var(--text3); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <svg viewBox="0 0 24 24" fill="#D4694A">
+        <path d="M19 11h-4.18C14.4 9.84 13.3 9 12 9s-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v2c0 2.21 1.79 4 4 4h10c2.21 0 4-1.79 4-4v-2c0-1.1-.9-2-2-2zm-7-1c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm6 5c0 1.1-.9 2-2 2H7c-1.1 0-2-.9-2-2v-1h14v1z"/>
+      </svg>
+      <span>Cukka</span>
+    </a>
+    <div class="card">
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: August 15, 2026</p>
+
+      <p>Cukka ("the app") is developed by Zabba Labs. This policy explains what data the app collects and how it's handled.</p>
+
+      <h2>Summary</h2>
+      <p>Cukka collects nothing. It has no backend server, no analytics, no advertising SDK, no tracking cookies, and no user accounts. The app works 100% offline.</p>
+
+      <h2>Data Storage</h2>
+      <p>All recipes, bookmarks, meal plans, shopping lists, and settings you create in Cukka are stored <strong>only on your device</strong> using your device's local storage. This data:</p>
+      <ul>
+        <li>Is never transmitted over the internet</li>
+        <li>Is never sent to Zabba Labs or any third party</li>
+        <li>Is never used for advertising, profiling, or tracking</li>
+        <li>Can be deleted at any time by clearing the app's data or uninstalling it</li>
+      </ul>
+
+      <h2>Data You Export</h2>
+      <p>Cukka lets you manually export your data (JSON backups or PDF recipe cards). These files are saved locally to your device memory or shared using your device's native share sheet. Cukka does not upload them anywhere.</p>
+
+      <h2>Permissions</h2>
+      <p>Cukka requests minimal permissions required for on-device functionality:</p>
+      <ul>
+        <li><strong>Storage / File Access:</strong> Used only when you choose to save exported backups or PDF recipe cards to phone memory.</li>
+        <li><strong>Keep Awake (Wakelock):</strong> Optional feature used during Cooking Mode to keep your screen on while reading instructions.</li>
+      </ul>
+
+      <h2>In-App Purchases / Subscriptions</h2>
+      <p>Cukka does not contain in-app purchases, subscriptions, or paywalls.</p>
+
+      <h2>Children's Privacy</h2>
+      <p>Cukka does not collect any personal information from anyone, including children, because it does not collect information at all.</p>
+
+      <h2>Changes to This Policy</h2>
+      <p>If this policy changes, the update will be reflected here with a new "last updated" date.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy: <a href="mailto:zbcdevo@gmail.com">zbcdevo@gmail.com</a></p>
+    </div>
+    <p class="footer">
+      Cukka is part of Zabba Labs.<br />
+      <a href="https://github.com/zbcdevo/cukka-app">github.com/zbcdevo/cukka-app</a>
+    </p>
+  </div>
+</body>
+</html>
