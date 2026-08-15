@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Cukka — Personal Cookbook & Kitchen Companion</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 <style>
   :root {
     --bg: #faf8f3;
@@ -18,19 +19,6 @@
     --border: #e5ddd6;
     --radius: 16px;
     --font: ui-rounded, 'SF Pro Rounded', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #1a1917;
-      --bg2: #242220;
-      --accent: #e07a5f;
-      --accent2: #c46040;
-      --accent-light: rgba(224, 122, 95, 0.15);
-      --text: #f0ede8;
-      --text2: #c5beb6;
-      --text3: #8a827a;
-      --border: #3a3632;
-    }
   }
   * { box-sizing: border-box; }
   body {
@@ -49,7 +37,7 @@
   .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
   .brand svg { width: 36px; height: 36px; }
   .brand span { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; color: var(--accent); }
-  nav a { color: var(--text2); text-decoration: none; font-size: 15px; font-weight: 500; }
+  nav a { color: var(--text2); text-decoration: none; font-size: 15px; font-weight: 500; margin-left: 16px; }
   nav a:hover { color: var(--accent); }
 
   .hero {
@@ -71,7 +59,7 @@
   }
   .btn-group {
     display: flex;
-    gap: 16px;
+    gap: 12px;
     justify-content: center;
     flex-wrap: wrap;
   }
@@ -79,9 +67,9 @@
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 14px 28px;
+    padding: 14px 24px;
     border-radius: 12px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     text-decoration: none;
     transition: transform 0.15s ease, opacity 0.15s ease;
@@ -103,8 +91,10 @@
     padding: 24px;
   }
   .card-icon {
-    font-size: 28px;
+    font-size: 32px;
+    color: var(--accent);
     margin-bottom: 12px;
+    display: block;
   }
   .card h3 {
     margin: 0 0 8px;
@@ -141,61 +131,68 @@
       </a>
       <nav>
         <a href="privacy.html">Privacy Policy</a>
+        <a href="mailto:zbcdevo@gmail.com">Contact</a>
       </nav>
     </header>
 
     <main>
       <section class="hero">
-        <h1>Your Personal 100% Offline Cookbook & Companion</h1>
+        <h1>Your Personal Cookbook & Kitchen Companion</h1>
         <p>Store recipes, plan weekly meals, convert kitchen units, and build smart shopping lists. No account, no cloud, no internet required.</p>
         
         <div class="btn-group">
           <a href="https://github.com/zbcdevo/cukka-app/releases/latest" class="btn btn-primary">
+            <span class="material-symbols-outlined">android</span>
             <span>Download for Android</span>
           </a>
-          <a href="https://github.com/zbcdevo/cukka-app" class="btn btn-secondary">
-            <span>View Source code</span>
+          <a href="privacy.html" class="btn btn-secondary">
+            <span class="material-symbols-outlined">policy</span>
+            <span>Privacy Policy</span>
+          </a>
+          <a href="mailto:zbcdevo@gmail.com" class="btn btn-secondary">
+            <span class="material-symbols-outlined">mail</span>
+            <span>Contact Us</span>
           </a>
         </div>
       </section>
 
       <section class="grid">
         <div class="card">
-          <div class="card-icon">🔒</div>
-          <h3>100% Offline & Private</h3>
+          <span class="material-symbols-outlined card-icon">lock</span>
+          <h3>Private & Local Storage</h3>
           <p>All data stays strictly on your device. Zero telemetry, zero cloud tracking, zero accounts.</p>
         </div>
         <div class="card">
-          <div class="card-icon">🗓️</div>
+          <span class="material-symbols-outlined card-icon">calendar_month</span>
           <h3>Weekly Meal Planner</h3>
           <p>Organize breakfast, lunch, snack, and dinner playlists with one-tap shopping list generation.</p>
         </div>
         <div class="card">
-          <div class="card-icon">⚖️</div>
+          <span class="material-symbols-outlined card-icon">swap_vert</span>
           <h3>Kitchen Converter</h3>
           <p>Convert volumes, weights, and densities seamlessly — including protein powder scoops.</p>
         </div>
         <div class="card">
-          <div class="card-icon">⏱️</div>
+          <span class="material-symbols-outlined card-icon">timer</span>
           <h3>Cooking Mode & Timer</h3>
           <p>Discreet inline scroll-wheel timer and screen wakelock so your device stays awake while cooking.</p>
         </div>
         <div class="card">
-          <div class="card-icon">🛒</div>
+          <span class="material-symbols-outlined card-icon">shopping_cart</span>
           <h3>Smart Shopping List</h3>
           <p>Auto-aggregates duplicate ingredients and scales recipe portions effortlessly.</p>
         </div>
         <div class="card">
-          <div class="card-icon">🌐</div>
+          <span class="material-symbols-outlined card-icon">language</span>
           <h3>Full Internationalization</h3>
-          <p>Complete 100% native language support for English and Portuguese (Brasil).</p>
+          <p>Complete native language support for English and Portuguese (Brasil).</p>
         </div>
       </section>
     </main>
 
     <footer>
       <p>Cukka is part of Zabba Labs.<br />
-      <a href="privacy.html">Privacy Policy</a> · <a href="https://github.com/zbcdevo/cukka-app">github.com/zbcdevo/cukka-app</a></p>
+      <a href="privacy.html">Privacy Policy</a> · <a href="mailto:zbcdevo@gmail.com">Contact Us</a></p>
     </footer>
   </div>
 </body>
