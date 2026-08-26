@@ -1,0 +1,60 @@
+{
+  "category": "other",
+  "recipes": [
+    {
+      "id": "cat_other_01",
+      "title": "Homemade Vegetable Stock Base",
+      "category": "other",
+      "servings": 8,
+      "cookingTimeMinutes": 45,
+      "difficulty": "easy",
+      "notes": "Freeze in ice cube trays for easy cooking portioning.",
+      "tags": [
+        "other",
+        "stock",
+        "broth",
+        "prep"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "Carrots chopped",
+          "amount": 3.0,
+          "unit": "unit"
+        },
+        {
+          "id": "ing_2",
+          "name": "Celery stalks chopped",
+          "amount": 3.0,
+          "unit": "unit"
+        },
+        {
+          "id": "ing_3",
+          "name": "Onions quartered",
+          "amount": 2.0,
+          "unit": "unit"
+        },
+        {
+          "id": "ing_4",
+          "name": "Water",
+          "amount": 8.0,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_5",
+          "name": "Bay leaves",
+          "amount": 2.0,
+          "unit": "unit"
+        }
+      ],
+      "steps": [
+        "Combine all chopped vegetables, water, bay leaves, and peppercorns in a large pot.",
+        "Bring to a boil, then reduce heat and simmer for 40 minutes.",
+        "Strain stock through fine mesh sieve and discard solids.",
+        "Cool and store in refrigerator or freezer."
+      ]
+    }
+  ]
+}

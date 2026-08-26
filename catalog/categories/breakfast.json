@@ -1,0 +1,128 @@
+{
+  "category": "breakfast",
+  "recipes": [
+    {
+      "id": "cat_breakfast_01",
+      "title": "Classic Fluffy Buttermilk Pancakes",
+      "category": "breakfast",
+      "servings": 4,
+      "cookingTimeMinutes": 20,
+      "difficulty": "easy",
+      "notes": "Serve hot with butter and warm maple syrup.",
+      "tags": [
+        "breakfast",
+        "pancakes",
+        "classic",
+        "quick"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "All-purpose flour",
+          "amount": 2.0,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_2",
+          "name": "Sugar",
+          "amount": 2.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "ing_3",
+          "name": "Baking powder",
+          "amount": 2.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "ing_4",
+          "name": "Salt",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "ing_5",
+          "name": "Milk or buttermilk",
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_6",
+          "name": "Egg",
+          "amount": 1.0,
+          "unit": "unit"
+        },
+        {
+          "id": "ing_7",
+          "name": "Melted butter",
+          "amount": 2.0,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Whisk flour, sugar, baking powder, and salt together in a large bowl.",
+        "In a separate bowl, whisk together buttermilk, egg, and melted butter.",
+        "Pour wet ingredients into dry ingredients and mix until just combined (small lumps are okay).",
+        "Heat a lightly oiled skillet over medium heat. Pour 1/4 cup batter per pancake.",
+        "Cook until bubbles form on top, flip and cook until golden brown."
+      ]
+    },
+    {
+      "id": "cat_breakfast_02",
+      "title": "Avocado & Poached Egg Toast",
+      "category": "breakfast",
+      "servings": 2,
+      "cookingTimeMinutes": 12,
+      "difficulty": "easy",
+      "notes": "Sprinkle red pepper flakes and sea salt for extra flavor.",
+      "tags": [
+        "breakfast",
+        "avocado",
+        "healthy",
+        "vegetarian"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "Sourdough bread slices",
+          "amount": 2.0,
+          "unit": "slice"
+        },
+        {
+          "id": "ing_2",
+          "name": "Ripe avocado",
+          "amount": 1.0,
+          "unit": "unit"
+        },
+        {
+          "id": "ing_3",
+          "name": "Eggs",
+          "amount": 2.0,
+          "unit": "unit"
+        },
+        {
+          "id": "ing_4",
+          "name": "Lemon juice",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "ing_5",
+          "name": "Salt and black pepper",
+          "amount": 1.0,
+          "unit": "pinch"
+        }
+      ],
+      "steps": [
+        "Toast sourdough bread slices until crisp.",
+        "Mash avocado with lemon juice, salt, and pepper in a small bowl.",
+        "Poach eggs in simmering water with a drop of vinegar for 3-4 minutes.",
+        "Spread mashed avocado over toast, top with poached eggs, and serve."
+      ]
+    }
+  ]
+}

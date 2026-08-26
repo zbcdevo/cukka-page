@@ -1,0 +1,60 @@
+{
+  "category": "vegan",
+  "recipes": [
+    {
+      "id": "cat_vegan_01",
+      "title": "Creamy Coconut Chickpea Curry",
+      "category": "vegan",
+      "servings": 4,
+      "cookingTimeMinutes": 25,
+      "difficulty": "easy",
+      "notes": "Serve over basmati rice with warm naan bread.",
+      "tags": [
+        "vegan",
+        "curry",
+        "chickpeas",
+        "healthy"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "Chickpeas drained",
+          "amount": 1.0,
+          "unit": "can"
+        },
+        {
+          "id": "ing_2",
+          "name": "Coconut milk",
+          "amount": 1.0,
+          "unit": "can"
+        },
+        {
+          "id": "ing_3",
+          "name": "Diced tomatoes",
+          "amount": 1.0,
+          "unit": "can"
+        },
+        {
+          "id": "ing_4",
+          "name": "Yellow curry powder",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "ing_5",
+          "name": "Spinach fresh",
+          "amount": 2.0,
+          "unit": "cup"
+        }
+      ],
+      "steps": [
+        "Saut\u00e9 diced onion and garlic in oil until soft (5 minutes).",
+        "Stir in curry powder, ginger, and cumin.",
+        "Add chickpeas, diced tomatoes, and coconut milk; simmer for 15 minutes.",
+        "Stir in fresh spinach until wilted; season with salt and lime juice."
+      ]
+    }
+  ]
+}

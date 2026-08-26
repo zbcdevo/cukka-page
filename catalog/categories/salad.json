@@ -1,0 +1,52 @@
+{
+  "category": "salad",
+  "recipes": [
+    {
+      "id": "cat_salad_01",
+      "title": "Classic Caesar Salad with Crisp Croutons",
+      "category": "salad",
+      "servings": 3,
+      "cookingTimeMinutes": 15,
+      "difficulty": "easy",
+      "notes": "Add grilled chicken or shrimp for a complete main dish.",
+      "tags": [
+        "salad",
+        "caesar",
+        "classic"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "Romaine lettuce chopped",
+          "amount": 4.0,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_2",
+          "name": "Parmesan cheese grated",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_3",
+          "name": "Croutons",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_4",
+          "name": "Caesar dressing",
+          "amount": 3.0,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Wash and chop fresh romaine lettuce.",
+        "In a large bowl, toss lettuce with Caesar dressing until evenly coated.",
+        "Top with grated Parmesan cheese and crisp croutons just before serving."
+      ]
+    }
+  ]
+}

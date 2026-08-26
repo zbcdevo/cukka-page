@@ -1,0 +1,60 @@
+{
+  "category": "soup",
+  "recipes": [
+    {
+      "id": "cat_soup_01",
+      "title": "Creamy Tomato Basil Soup",
+      "category": "soup",
+      "servings": 4,
+      "cookingTimeMinutes": 35,
+      "difficulty": "easy",
+      "notes": "Perfect with grilled cheese sandwiches.",
+      "tags": [
+        "soup",
+        "tomato",
+        "comfort",
+        "vegetarian"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "Crushed tomatoes",
+          "amount": 1.0,
+          "unit": "can"
+        },
+        {
+          "id": "ing_2",
+          "name": "Vegetable broth",
+          "amount": 2.0,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_3",
+          "name": "Heavy cream",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_4",
+          "name": "Garlic minced",
+          "amount": 2.0,
+          "unit": "clove"
+        },
+        {
+          "id": "ing_5",
+          "name": "Fresh basil chopped",
+          "amount": 0.25,
+          "unit": "cup"
+        }
+      ],
+      "steps": [
+        "Saut\u00e9 minced garlic in olive oil until fragrant (1 minute).",
+        "Add crushed tomatoes and vegetable broth; bring to a boil.",
+        "Reduce heat and simmer for 20 minutes.",
+        "Blend until smooth, stir in heavy cream and fresh basil, season with salt and pepper."
+      ]
+    }
+  ]
+}

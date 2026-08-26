@@ -1,0 +1,60 @@
+{
+  "category": "seafood",
+  "recipes": [
+    {
+      "id": "cat_seafood_01",
+      "title": "Garlic White Wine Shrimp Scampi",
+      "category": "seafood",
+      "servings": 2,
+      "cookingTimeMinutes": 15,
+      "difficulty": "easy",
+      "notes": "Serve over linguine or with warm crusty bread.",
+      "tags": [
+        "seafood",
+        "shrimp",
+        "quick",
+        "italian"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "Large shrimp peeled",
+          "amount": 300.0,
+          "unit": "g"
+        },
+        {
+          "id": "ing_2",
+          "name": "Garlic minced",
+          "amount": 4.0,
+          "unit": "clove"
+        },
+        {
+          "id": "ing_3",
+          "name": "White wine",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_4",
+          "name": "Butter",
+          "amount": 2.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "ing_5",
+          "name": "Fresh parsley chopped",
+          "amount": 2.0,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Melt butter with olive oil in a skillet over medium heat.",
+        "Add garlic and saut\u00e9 for 1 minute until fragrant.",
+        "Add shrimp and cook 2 minutes per side until pink.",
+        "Pour in white wine and lemon juice; simmer for 2 minutes and toss with parsley."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "category": "baking",
+  "recipes": [
+    {
+      "id": "cat_baking_01",
+      "title": "Artisan Garlic Herb Crusty Bread",
+      "category": "baking",
+      "servings": 8,
+      "cookingTimeMinutes": 50,
+      "difficulty": "medium",
+      "notes": "No kneading required. Dutch oven yields best crust.",
+      "tags": [
+        "baking",
+        "bread",
+        "artisan"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "Bread flour",
+          "amount": 3.0,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_2",
+          "name": "Instant yeast",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "ing_3",
+          "name": "Salt",
+          "amount": 1.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "ing_4",
+          "name": "Warm water",
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_5",
+          "name": "Dried rosemary",
+          "amount": 1.0,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        "Mix flour, yeast, salt, and rosemary in a large bowl.",
+        "Add warm water and stir until a shaggy dough forms.",
+        "Cover and let rise at room temperature for 2 hours until doubled.",
+        "Bake in preheated Dutch oven at 220\u00b0C (430\u00b0F) for 30 minutes covered, 15 minutes uncovered."
+      ]
+    }
+  ]
+}

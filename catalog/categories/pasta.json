@@ -1,0 +1,60 @@
+{
+  "category": "pasta",
+  "recipes": [
+    {
+      "id": "cat_pasta_01",
+      "title": "Authentic Spaghetti Creamy Carbonara",
+      "category": "pasta",
+      "servings": 2,
+      "cookingTimeMinutes": 20,
+      "difficulty": "easy",
+      "notes": "Do not add cream! The eggs and starch water create the silky sauce.",
+      "tags": [
+        "pasta",
+        "italian",
+        "carbonara",
+        "classic"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "Spaghetti",
+          "amount": 200.0,
+          "unit": "g"
+        },
+        {
+          "id": "ing_2",
+          "name": "Pancetta or bacon diced",
+          "amount": 100.0,
+          "unit": "g"
+        },
+        {
+          "id": "ing_3",
+          "name": "Eggs",
+          "amount": 2.0,
+          "unit": "unit"
+        },
+        {
+          "id": "ing_4",
+          "name": "Pecorino or Parmesan cheese",
+          "amount": 50.0,
+          "unit": "g"
+        },
+        {
+          "id": "ing_5",
+          "name": "Black pepper freshly ground",
+          "amount": 1.0,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        "Boil spaghetti in salted water until al dente.",
+        "Crisp pancetta in a pan over medium heat.",
+        "Whisk eggs, grated cheese, and black pepper together in a bowl.",
+        "Toss hot pasta into pancetta pan (off heat), pour egg mixture and 1/4 cup starchy pasta water, stirring rapidly to form a silky sauce."
+      ]
+    }
+  ]
+}

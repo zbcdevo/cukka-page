@@ -1,0 +1,60 @@
+{
+  "category": "snack",
+  "recipes": [
+    {
+      "id": "cat_snack_01",
+      "title": "Crispy Roasted Garlic Chickpeas",
+      "category": "snack",
+      "servings": 4,
+      "cookingTimeMinutes": 30,
+      "difficulty": "easy",
+      "notes": "Healthy crunchy snack loaded with fiber.",
+      "tags": [
+        "snack",
+        "vegan",
+        "healthy",
+        "crispy"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "Chickpeas drained and dried",
+          "amount": 1.0,
+          "unit": "can"
+        },
+        {
+          "id": "ing_2",
+          "name": "Olive oil",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "ing_3",
+          "name": "Garlic powder",
+          "amount": 1.0,
+          "unit": "tsp"
+        },
+        {
+          "id": "ing_4",
+          "name": "Smoked paprika",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "id": "ing_5",
+          "name": "Salt",
+          "amount": 0.5,
+          "unit": "tsp"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 200\u00b0C (400\u00b0F).",
+        "Rinse chickpeas and dry thoroughly with paper towels.",
+        "Toss chickpeas with olive oil, garlic powder, paprika, and salt.",
+        "Spread on baking sheet and roast for 25-30 minutes, shaking pan halfway."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "category": "dinner",
+  "recipes": [
+    {
+      "id": "cat_dinner_01",
+      "title": "Garlic Butter Pan-Seared Salmon",
+      "category": "dinner",
+      "servings": 2,
+      "cookingTimeMinutes": 18,
+      "difficulty": "easy",
+      "notes": "Pair with roasted asparagus or steamed jasmine rice.",
+      "tags": [
+        "dinner",
+        "salmon",
+        "seafood",
+        "keto",
+        "quick"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "Salmon fillets",
+          "amount": 2.0,
+          "unit": "piece"
+        },
+        {
+          "id": "ing_2",
+          "name": "Butter",
+          "amount": 2.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "ing_3",
+          "name": "Garlic minced",
+          "amount": 3.0,
+          "unit": "clove"
+        },
+        {
+          "id": "ing_4",
+          "name": "Lemon slices",
+          "amount": 4.0,
+          "unit": "slice"
+        },
+        {
+          "id": "ing_5",
+          "name": "Olive oil",
+          "amount": 1.0,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Pat salmon fillets dry and season generously with salt, pepper, and paprika.",
+        "Heat olive oil in a pan over medium-high heat.",
+        "Sear salmon skin-side up for 4 minutes, flip and add butter and garlic.",
+        "Baste salmon with melted garlic butter for another 3 minutes until cooked through."
+      ]
+    }
+  ]
+}

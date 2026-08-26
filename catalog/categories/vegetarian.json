@@ -1,0 +1,60 @@
+{
+  "category": "vegetarian",
+  "recipes": [
+    {
+      "id": "cat_vegetarian_01",
+      "title": "Spinach & Ricotta Stuffed Shells",
+      "category": "vegetarian",
+      "servings": 4,
+      "cookingTimeMinutes": 45,
+      "difficulty": "medium",
+      "notes": "Comforting baked pasta dish.",
+      "tags": [
+        "vegetarian",
+        "pasta",
+        "italian",
+        "cheese"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "Jumbo pasta shells",
+          "amount": 20.0,
+          "unit": "unit"
+        },
+        {
+          "id": "ing_2",
+          "name": "Ricotta cheese",
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_3",
+          "name": "Frozen spinach thawed and drained",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_4",
+          "name": "Mozzarella shredded",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_5",
+          "name": "Marinara sauce",
+          "amount": 2.0,
+          "unit": "cup"
+        }
+      ],
+      "steps": [
+        "Boil jumbo shells until al dente; drain.",
+        "Mix ricotta, spinach, half the mozzarella, garlic powder, salt, and pepper.",
+        "Spread marinara sauce over baking dish.",
+        "Stuff shells with ricotta mix, arrange in dish, top with remaining mozzarella, and bake at 190\u00b0C (375\u00b0F) for 25 minutes."
+      ]
+    }
+  ]
+}
