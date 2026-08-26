@@ -35,7 +35,7 @@
     margin-bottom: 48px;
   }
   .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
-  .brand svg { width: 36px; height: 36px; }
+  .brand img, .brand svg { width: 36px; height: 36px; border-radius: 8px; object-fit: contain; }
   .brand span { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; color: var(--accent); }
   nav a { color: var(--text2); text-decoration: none; font-size: 15px; font-weight: 500; margin-left: 16px; }
   nav a:hover { color: var(--accent); }
@@ -125,15 +125,7 @@
   <div class="wrap">
     <header>
       <a href="index.html" class="brand">
-        <svg viewBox="0 0 100 100" fill="none">
-          <path d="M 88,14 C 98,24 80,32 90,44 M 74,22 C 84,30 70,38 78,46" stroke="#D4694A" stroke-width="5" stroke-linecap="round"/>
-          <path d="M 45,28 C 30,16 45,4 57,14 C 53,22 49,26 45,28 Z" fill="#D4694A"/>
-          <path d="M 50,24 C 58,10 72,14 66,26 C 60,28 54,26 50,24 Z" fill="#D4694A"/>
-          <path d="M 23,48 C 23,48 48,21 88,30 C 89,38 65,48 23,48 Z" fill="#D4694A"/>
-          <path d="M 24,56 C 12,56 12,68 24,68 Z" fill="#D4694A"/>
-          <path d="M 96,56 C 108,56 108,68 96,68 Z" fill="#D4694A"/>
-          <path d="M 23,50 L 97,50 L 97,74 C 97,92 83,100 60,100 C 37,100 23,92 23,74 Z" fill="#D4694A"/>
-        </svg>
+        <img src="logo.png" alt="Cukka Logo" width="36" height="36" />
         <span>Cukka</span>
       </a>
       <nav>
