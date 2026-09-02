@@ -1,0 +1,66 @@
+{
+  "category": "dessert",
+  "recipes": [
+    {
+      "id": "cat_dessert_01",
+      "title": "Fudgy Chocolate Lava Mug Cake",
+      "category": "dessert",
+      "servings": 1,
+      "cookingTimeMinutes": 5,
+      "difficulty": "easy",
+      "notes": "Top with vanilla ice cream for ultimate indulgence.",
+      "tags": [
+        "dessert",
+        "chocolate",
+        "mugcake",
+        "quick"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "All-purpose flour",
+          "amount": 3.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "ing_2",
+          "name": "Sugar",
+          "amount": 2.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "ing_3",
+          "name": "Cocoa powder",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "ing_4",
+          "name": "Milk",
+          "amount": 3.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "ing_5",
+          "name": "Melted butter",
+          "amount": 1.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "ing_6",
+          "name": "Chocolate chips",
+          "amount": 1.0,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Whisk flour, sugar, and cocoa powder together inside a microwave-safe mug.",
+        "Add milk and melted butter; stir until smooth.",
+        "Drop chocolate chips in the center of batter.",
+        "Microwave on high for 60 seconds. Let cool for 2 minutes before serving."
+      ]
+    }
+  ]
+}

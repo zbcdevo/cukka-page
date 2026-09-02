@@ -1,0 +1,53 @@
+{
+  "category": "drinks",
+  "recipes": [
+    {
+      "id": "cat_drinks_01",
+      "title": "Refreshing Mango Passionfruit Smoothie",
+      "category": "drinks",
+      "servings": 2,
+      "cookingTimeMinutes": 5,
+      "difficulty": "easy",
+      "notes": "Packed with vitamin C and tropical flavor.",
+      "tags": [
+        "drinks",
+        "smoothie",
+        "tropical",
+        "quick"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "Frozen mango chunks",
+          "amount": 1.5,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_2",
+          "name": "Orange juice",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_3",
+          "name": "Greek yogurt or coconut yogurt",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_4",
+          "name": "Honey or agave",
+          "amount": 1.0,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Place all ingredients into high-speed blender.",
+        "Blend on high for 60 seconds until completely smooth.",
+        "Pour into glasses and garnish with mint leaf."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-26T20:00:00.000Z",
+  "totalCategories": 16,
+  "totalRecipes": 17,
+  "categories": [
+    {
+      "id": "breakfast",
+      "count": 2,
+      "recipes": [
+        {
+          "id": "cat_breakfast_01",
+          "title": "Classic Fluffy Buttermilk Pancakes",
+          "cookingTimeMinutes": 20,
+          "tags": [
+            "breakfast",
+            "pancakes",
+            "classic",
+            "quick"
+          ]
+        },
+        {
+          "id": "cat_breakfast_02",
+          "title": "Avocado & Poached Egg Toast",
+          "cookingTimeMinutes": 12,
+          "tags": [
+            "breakfast",
+            "avocado",
+            "healthy",
+            "vegetarian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lunch",
+      "count": 1,
+      "recipes": [
+        {
+          "id": "cat_lunch_01",
+          "title": "Mediterranean Quinoa Salad Bowl",
+          "cookingTimeMinutes": 25,
+          "tags": [
+            "lunch",
+            "salad",
+            "quinoa",
+            "mediterranean",
+            "healthy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dinner",
+      "count": 1,
+      "recipes": [
+        {
+          "id": "cat_dinner_01",
+          "title": "Garlic Butter Pan-Seared Salmon",
+          "cookingTimeMinutes": 18,
+          "tags": [
+            "dinner",
+            "salmon",
+            "seafood",
+            "keto",
+            "quick"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dessert",
+      "count": 1,
+      "recipes": [
+        {
+          "id": "cat_dessert_01",
+          "title": "Fudgy Chocolate Lava Mug Cake",
+          "cookingTimeMinutes": 5,
+          "tags": [
+            "dessert",
+            "chocolate",
+            "mugcake",
+            "quick"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "snack",
+      "count": 1,
+      "recipes": [
+        {
+          "id": "cat_snack_01",
+          "title": "Crispy Roasted Garlic Chickpeas",
+          "cookingTimeMinutes": 30,
+          "tags": [
+            "snack",
+            "vegan",
+            "healthy",
+            "crispy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soup",
+      "count": 1,
+      "recipes": [
+        {
+          "id": "cat_soup_01",
+          "title": "Creamy Tomato Basil Soup",
+          "cookingTimeMinutes": 35,
+          "tags": [
+            "soup",
+            "tomato",
+            "comfort",
+            "vegetarian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salad",
+      "count": 1,
+      "recipes": [
+        {
+          "id": "cat_salad_01",
+          "title": "Classic Caesar Salad with Crisp Croutons",
+          "cookingTimeMinutes": 15,
+          "tags": [
+            "salad",
+            "caesar",
+            "classic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "baking",
+      "count": 1,
+      "recipes": [
+        {
+          "id": "cat_baking_01",
+          "title": "Artisan Garlic Herb Crusty Bread",
+          "cookingTimeMinutes": 50,
+          "tags": [
+            "baking",
+            "bread",
+            "artisan"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pasta",
+      "count": 1,
+      "recipes": [
+        {
+          "id": "cat_pasta_01",
+          "title": "Authentic Spaghetti Creamy Carbonara",
+          "cookingTimeMinutes": 20,
+          "tags": [
+            "pasta",
+            "italian",
+            "carbonara",
+            "classic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meat",
+      "count": 1,
+      "recipes": [
+        {
+          "id": "cat_meat_01",
+          "title": "Rosemary Rosemary Ribeye Steak",
+          "cookingTimeMinutes": 15,
+          "tags": [
+            "meat",
+            "steak",
+            "beef",
+            "keto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seafood",
+      "count": 1,
+      "recipes": [
+        {
+          "id": "cat_seafood_01",
+          "title": "Garlic White Wine Shrimp Scampi",
+          "cookingTimeMinutes": 15,
+          "tags": [
+            "seafood",
+            "shrimp",
+            "quick",
+            "italian"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vegetarian",
+      "count": 1,
+      "recipes": [
+        {
+          "id": "cat_vegetarian_01",
+          "title": "Spinach & Ricotta Stuffed Shells",
+          "cookingTimeMinutes": 45,
+          "tags": [
+            "vegetarian",
+            "pasta",
+            "italian",
+            "cheese"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vegan",
+      "count": 1,
+      "recipes": [
+        {
+          "id": "cat_vegan_01",
+          "title": "Creamy Coconut Chickpea Curry",
+          "cookingTimeMinutes": 25,
+          "tags": [
+            "vegan",
+            "curry",
+            "chickpeas",
+            "healthy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "count": 1,
+      "recipes": [
+        {
+          "id": "cat_drinks_01",
+          "title": "Refreshing Mango Passionfruit Smoothie",
+          "cookingTimeMinutes": 5,
+          "tags": [
+            "drinks",
+            "smoothie",
+            "tropical",
+            "quick"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sauce",
+      "count": 1,
+      "recipes": [
+        {
+          "id": "cat_sauce_01",
+          "title": "Fresh Basil Pesto Sauce",
+          "cookingTimeMinutes": 10,
+          "tags": [
+            "sauce",
+            "pesto",
+            "italian",
+            "fresh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "count": 1,
+      "recipes": [
+        {
+          "id": "cat_other_01",
+          "title": "Homemade Vegetable Stock Base",
+          "cookingTimeMinutes": 45,
+          "tags": [
+            "other",
+            "stock",
+            "broth",
+            "prep"
+          ]
+        }
+      ]
+    }
+  ]
+}

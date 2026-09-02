@@ -1,0 +1,54 @@
+{
+  "category": "meat",
+  "recipes": [
+    {
+      "id": "cat_meat_01",
+      "title": "Rosemary Rosemary Ribeye Steak",
+      "category": "meat",
+      "servings": 2,
+      "cookingTimeMinutes": 15,
+      "difficulty": "easy",
+      "notes": "Rest for 5 minutes before slicing.",
+      "tags": [
+        "meat",
+        "steak",
+        "beef",
+        "keto"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "Ribeye steak",
+          "amount": 1.0,
+          "unit": "lb"
+        },
+        {
+          "id": "ing_2",
+          "name": "Butter",
+          "amount": 2.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "ing_3",
+          "name": "Garlic cloves crushed",
+          "amount": 3.0,
+          "unit": "clove"
+        },
+        {
+          "id": "ing_4",
+          "name": "Fresh rosemary sprigs",
+          "amount": 2.0,
+          "unit": "unit"
+        }
+      ],
+      "steps": [
+        "Season steak generously with coarse salt and pepper on all sides.",
+        "Sear in smoking hot cast iron skillet with oil for 3 minutes per side.",
+        "Add butter, garlic, and rosemary; baste steak continuously for 2 minutes.",
+        "Remove steak to cutting board and rest 5 minutes."
+      ]
+    }
+  ]
+}

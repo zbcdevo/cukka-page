@@ -1,0 +1,73 @@
+{
+  "category": "lunch",
+  "recipes": [
+    {
+      "id": "cat_lunch_01",
+      "title": "Mediterranean Quinoa Salad Bowl",
+      "category": "lunch",
+      "servings": 3,
+      "cookingTimeMinutes": 25,
+      "difficulty": "easy",
+      "notes": "Great for meal prep. Keeps well in fridge for up to 4 days.",
+      "tags": [
+        "lunch",
+        "salad",
+        "quinoa",
+        "mediterranean",
+        "healthy"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "Quinoa",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_2",
+          "name": "Cucumber diced",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_3",
+          "name": "Cherry tomatoes halved",
+          "amount": 1.0,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_4",
+          "name": "Feta cheese crumbled",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_5",
+          "name": "Kalamata olives",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_6",
+          "name": "Olive oil",
+          "amount": 2.0,
+          "unit": "tbsp"
+        },
+        {
+          "id": "ing_7",
+          "name": "Lemon juice",
+          "amount": 1.0,
+          "unit": "tbsp"
+        }
+      ],
+      "steps": [
+        "Rinse quinoa and cook in 2 cups of water for 15 minutes until tender; fluff with fork.",
+        "Let quinoa cool completely.",
+        "Toss cooked quinoa with cucumber, tomatoes, feta cheese, and olives.",
+        "Drizzle with olive oil, lemon juice, salt, and oregano; toss gently to combine."
+      ]
+    }
+  ]
+}

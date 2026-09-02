@@ -1,0 +1,59 @@
+{
+  "category": "sauce",
+  "recipes": [
+    {
+      "id": "cat_sauce_01",
+      "title": "Fresh Basil Pesto Sauce",
+      "category": "sauce",
+      "servings": 6,
+      "cookingTimeMinutes": 10,
+      "difficulty": "easy",
+      "notes": "Store in airtight jar with oil layer on top for up to 1 week.",
+      "tags": [
+        "sauce",
+        "pesto",
+        "italian",
+        "fresh"
+      ],
+      "createdAt": "2026-08-26T20:00:00.000Z",
+      "updatedAt": "2026-08-26T20:00:00.000Z",
+      "ingredients": [
+        {
+          "id": "ing_1",
+          "name": "Fresh basil leaves",
+          "amount": 2.0,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_2",
+          "name": "Extra virgin olive oil",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_3",
+          "name": "Parmesan cheese grated",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_4",
+          "name": "Pine nuts or walnuts toasted",
+          "amount": 0.33,
+          "unit": "cup"
+        },
+        {
+          "id": "ing_5",
+          "name": "Garlic cloves",
+          "amount": 2.0,
+          "unit": "clove"
+        }
+      ],
+      "steps": [
+        "Pulse basil leaves, garlic, and toasted pine nuts in food processor.",
+        "Drizzle olive oil slowly while processing until emulsified.",
+        "Stir in grated Parmesan cheese and salt to taste."
+      ]
+    }
+  ]
+}
