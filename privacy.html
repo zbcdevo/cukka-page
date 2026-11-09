@@ -64,8 +64,8 @@
       <h2>Network Use</h2>
       <p>Cukka uses the internet in only two cases:</p>
       <ul>
-        <li><strong>Translation language models:</strong> when you choose to translate content, the app downloads Google ML Kit on-device translation language models, served by Google. Translation itself then runs on your device.</li>
-        <li><strong>Public recipe catalog:</strong> when you browse the optional public recipe catalog, the app fetches catalog files from GitHub (<code>raw.githubusercontent.com</code>).</li>
+        <li><strong>Translation language models:</strong> translation language models are downloaded from Google (Google ML Kit) so translation can run on your device. They may download automatically when content in another language is shown and auto-translation is on (the default): on Wi-Fi, or on any network if the Wi-Fi-only setting is off. Otherwise they download only when you tap download. You can turn auto-translation off in Settings. Translation itself then runs on your device.</li>
+        <li><strong>Public recipe catalog:</strong> if you use the optional public recipe catalog, the app fetches catalog files from GitHub (<code>raw.githubusercontent.com</code>).</li>
       </ul>
       <p>Like any web request, these providers receive standard request metadata such as your IP address. Cukka sends them no personal data, and the content you create is never uploaded.</p>
 
