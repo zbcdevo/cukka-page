@@ -54,37 +54,46 @@
     </a>
     <div class="card">
       <h1>Privacy Policy</h1>
-      <p class="updated">Last updated: August 24, 2026</p>
+      <p class="updated">Effective date: November 9, 2026</p>
 
       <p>Cukka is developed by Zabba Labs. This policy explains what data the app handles.</p>
 
       <h2>Summary</h2>
-      <p>Cukka does not collect any personal data. It operates without a backend server, analytics, advertising SDKs, tracking cookies, or user accounts. The app works entirely offline.</p>
+      <p>Cukka does not collect any personal data. It has no backend server, analytics, advertising SDKs, tracking cookies, or user accounts. All core features work offline, and the app goes online only in the two cases described under Network Use.</p>
+
+      <h2>Network Use</h2>
+      <p>Cukka uses the internet in only two cases:</p>
+      <ul>
+        <li><strong>Translation language models:</strong> when you choose to translate content, the app downloads Google ML Kit on-device translation language models, served by Google. Translation itself then runs on your device.</li>
+        <li><strong>Public recipe catalog:</strong> when you browse the optional public recipe catalog, the app fetches catalog files from GitHub (<code>raw.githubusercontent.com</code>).</li>
+      </ul>
+      <p>Like any web request, these providers receive standard request metadata such as your IP address. Cukka sends them no personal data, and the content you create is never uploaded.</p>
 
       <h2>Data Storage</h2>
-      <p>All recipes, meal plans, shopping lists, and settings created in Cukka remain strictly on your device's local storage. This data:</p>
+      <p>All recipes, meal plans, shopping lists, and settings created in Cukka remain in the app's private local storage on your device. This data:</p>
       <ul>
-        <li>Is never transmitted over the internet</li>
         <li>Is never sent to Zabba Labs or any third party</li>
         <li>Is never used for advertising, profiling, or tracking</li>
+        <li>Is excluded from Android cloud backup</li>
         <li>Can be deleted at any time by clearing app data or uninstalling the app</li>
       </ul>
 
       <h2>Data Export</h2>
-      <p>Cukka allows you to export your data (JSON backups or PDF recipe cards). Exported files are saved locally to your device memory or shared using your device's native share sheet. Cukka does not upload them to external servers.</p>
+      <p>Cukka allows you to export your data (JSON backups or PDF recipe cards). Exported files are created locally and shared only through your device's native share sheet. Cukka does not upload them to external servers.</p>
 
       <h2>Device Permissions</h2>
-      <p>Cukka requests minimal permissions required for on-device features:</p>
+      <p>Cukka requests only these Android permissions:</p>
       <ul>
-        <li><strong>Storage & File Access:</strong> Used only when saving exported backups or PDF recipe cards to local memory.</li>
-        <li><strong>Screen Wakelock:</strong> Used during Cooking Mode to keep your screen active while reading instructions.</li>
+        <li><strong>INTERNET:</strong> used for the translation model downloads and the public catalog fetch described above.</li>
+        <li><strong>ACCESS_NETWORK_STATE:</strong> used to check whether a connection is available before those downloads.</li>
       </ul>
+      <p>Keeping the screen on during Cooking Mode needs no permission.</p>
 
       <h2>Purchases & Subscriptions</h2>
       <p>Cukka contains no in-app purchases, subscriptions, or paywalls.</p>
 
       <h2>Children's Privacy</h2>
-      <p>Cukka does not collect personal information from anyone, including children, because no data is collected.</p>
+      <p>Cukka does not collect any personal data from anyone, including children.</p>
 
       <h2>Policy Updates</h2>
       <p>If this policy changes, updates will be published on this page with a revised date.</p>
